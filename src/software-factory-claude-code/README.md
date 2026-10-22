@@ -1,5 +1,9 @@
 # Software Factory for Claude Code
 
+> **v2 is here.** It works through your GitHub issues, runs several jobs at
+> once, gates every build with your own checks, and merges through PRs. See
+> [`software-factory-claude-code-v2`](../software-factory-claude-code-v2).
+
 A small, visual software factory built from one Claude Code skill, seven
 subagents and plain markdown files. You type `/factory <feature>` and agents
 write a spec, build it on its own branch, review it from four angles, and either
