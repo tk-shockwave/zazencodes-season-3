@@ -5,6 +5,7 @@
 - `README.md` is the public landing page for this repo and should stay simple.
 - Only include top-level folders from `src/` that already have matching published video content in `/Users/alex/pro/zazencodes-content/videos`.
 - Do not include unpublished folders in `README.md`.
+- A published Season 3 video with no source code still gets a row: title, description, thumbnail and YouTube link, with the "Source code" cell left empty.
 - Keep the `README.md` video index in reverse chronological order so the newest published videos appear first.
 - When asked to "Update the README", assume existing README entries are still correct. Only check new `src/` folders that are not already linked in `README.md`.
 
@@ -20,6 +21,7 @@
 - List top-level folders in `src/` and find any new folders missing from `README.md`.
 - For each new folder, search `/Users/alex/pro/zazencodes-content/videos/**/info.json` for a matching `source_code_url` or obvious folder match.
 - If there is no corresponding local content entry, skip that folder for now.
+- Also find published videos with no `src/` folder: any `/Users/alex/pro/zazencodes-content/videos/**/info.json` newer than the newest README row whose title is not already in `README.md`. Add each as a row with an empty "Source code" cell, and name its thumbnail `assets/thumbnails/<short-video-slug>.png`.
 - For matched folders, use local metadata as the source of truth:
   - title from `info.json`
   - YouTube URL from `info.json`
