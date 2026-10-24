@@ -16,7 +16,6 @@ These are the Season 3 source folders currently in this repo. The published vide
 
 | Video | Watch | Source code |
 | --- | --- | --- |
-| Build a Better AI Software Factory with Claude Code | Video coming soon | [`src/software-factory-claude-code-v2`](src/software-factory-claude-code-v2) |
 | [Run your Pi Agent for Free with 9Router + VPS (Full Guide + Demo)](https://youtu.be/OrG6Tya_WhU) | [![Run your Pi Agent for Free with 9Router + VPS (Full Guide + Demo)](assets/thumbnails/9router-vps.png)](https://youtu.be/OrG6Tya_WhU) | |
 | [Build an Agent with eve (Vercel's Open Agent Framework)](https://youtu.be/MObkrCUCrJw) | [![Build an Agent with eve (Vercel's Open Agent Framework)](assets/thumbnails/eve-pocket-research.png)](https://youtu.be/MObkrCUCrJw) | [`src/eve-pocket-research`](src/eve-pocket-research) |
 | [Build Your Own AI Software Factory with Claude Code](https://youtu.be/ctoaIC4LHmI) | [![Build Your Own AI Software Factory with Claude Code](assets/thumbnails/software-factory-claude-code-codebase-factory.png)](https://youtu.be/ctoaIC4LHmI) | [`src/software-factory-claude-code`](src/software-factory-claude-code) |
